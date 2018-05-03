@@ -27,7 +27,7 @@ spec:
       volumes:
         - name: registryvolume
           registryDisk:
-            image: kubevirt/cirros-registry-disk-demo
+            image: kubevirt/fedora-cloud-registry-disk-demo
         - name: cloudinitvolume
           cloudInitNoCloud:
             userDataBase64: SGkuXG4= 
